@@ -28,11 +28,22 @@
     IAA,
     IGOGOO,
     CHIU
-} и будут предствалены Вам на обозрение автоматически при создании животного
+} и будут представлены Вам на обозрение автоматически при создании животного
 
-<img width="2048" alt="Снимок экрана 2023-06-17 в 22 15 50" src="https://github.com/VladimirGorF/AnimalsDataCenter/assets/110591063/90d0946d-cdc1-434e-aa57-bd9baab0bd4e">
-
-
+<img width="2048" alt="Снимок экрана 2023-06-17 в 22 21 26" src="https://github.com/VladimirGorF/AnimalsDataCenter/assets/110591063/bb399291-08f2-4976-98aa-5164bc2b8224">
 
 Счетчик заведенных за сеанс животных представлен классом Counter.
-  
+
+  <img width="2048" alt="Снимок экрана 2023-06-17 в 22 28 46" src="https://github.com/VladimirGorF/AnimalsDataCenter/assets/110591063/e7636061-51ef-446a-949d-e291d7cd98ea">
+
+Данные о животных сохраняются в файле animals.txt
+
+Данные о командах, которые умеют животные, сохраняются в файле fileCommands.txt
+
+Данные счетчика сохраняются в файле file.txt
+
+
+Запуск программы осуществляется в папке src -> main.
+
+Приятного пользования!
+
