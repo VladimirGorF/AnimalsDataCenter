@@ -1,4 +1,4 @@
-public enum CommandsOfProgramm {
+public enum CommandsOfProgram {
     NONE,
     CREATE,
     READ,
@@ -6,4 +6,7 @@ public enum CommandsOfProgramm {
     DEL,
     EXIT,
     NAVI,
+    TEACH,
+    SHOWCOM,
+    TYPE
 }

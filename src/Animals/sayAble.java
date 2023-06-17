@@ -1,2 +1,5 @@
-package Animals;public interface sayAble {
+package Animals;
+
+public interface sayAble {
+     String say();
 }

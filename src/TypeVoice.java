@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public enum Types {
+public enum TypeVoice {
+    GRR,
+    MYAU,
+    GAV,
+    IAA,
+    IGOGOO,
+    CHIU
 }

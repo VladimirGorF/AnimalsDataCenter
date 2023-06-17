@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="86428699-5b82-483e-9b85-3c5cda1f50b1" name="Changes" comment="" />
+    <list default="true" id="86428699-5b82-483e-9b85-3c5cda1f50b1" name="Changes" comment="Second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/Camels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Camels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Cats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Dogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Donkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/HomeAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/HomeAnimals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/Horses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Horses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/Humsters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Humsters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/PackAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/PackAnimals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals/sayAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/sayAble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandsOfProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandsOfProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos_Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos_Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypeVoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QyAWswZbqLeWVDReZauyeo52Wy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,12 +56,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +74,9 @@
       <updated>1686315485926</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
 </project>

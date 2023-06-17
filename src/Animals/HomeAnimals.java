@@ -1,8 +1,20 @@
 package Animals;
 
-public class Home_Animals extends Animals {
 
-    public Home_Animals(String name, String height, String weight, Integer age) {
-        super(name, height, weight, age);
+
+public class HomeAnimals extends Animals {
+
+
+    public HomeAnimals(String id, String name, String sound) {
+        super(id, name, sound);
+    }
+
+    @Override
+    public String say() {
+        return null;
     }
 }
+
+
+
+
