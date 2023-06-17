@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86428699-5b82-483e-9b85-3c5cda1f50b1" name="Changes" comment="Second commit">
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Camels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Camels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Cats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Dogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Donkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/HomeAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/HomeAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Horses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Horses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Humsters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Humsters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/PackAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/PackAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/sayAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/sayAble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandsOfProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandsOfProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repos_Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos_Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypeVoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,6 +57,14 @@
       <option name="presentableId" value="Default" />
       <updated>1686315485926</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <created>1687001856176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687001856176</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

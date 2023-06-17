@@ -26,7 +26,6 @@ public class FileOperator implements FileOperation {
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
-
     }
 
     public List<String> readAllLines() {

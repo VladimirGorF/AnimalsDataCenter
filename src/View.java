@@ -6,6 +6,7 @@ import Animals.Donkey;
 import Animals.Horses;
 import Animals.Humsters;
 
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -19,7 +20,7 @@ public class View {
     }
 
     public void run() {
-        CommandsOfProgram com = CommandsOfProgram.NONE;
+        CommandsOfProgram com;
         navi();
         while (true) {
             try {
@@ -38,11 +39,10 @@ public class View {
                     case TYPE -> typeOfAnimal();
                 }
             } catch (Exception ex) {
-                System.out.println("Произошла ошибка " + ex.toString());
+                System.out.println("Произошла ошибка " + ex.getMessage());
             }
         }
     }
-
 
     private void read() throws Exception {
         String id = prompt("Идентификатор: ");
@@ -97,15 +97,40 @@ public class View {
     }
 
     private void create() throws Exception {
-        String name = prompt("Имя: ");
-        TypeVoice[] animalVoices = TypeVoice.values();
-        for (TypeVoice say : animalVoices) {
-            System.out.println(say);
+        Counter counter = new Counter(0);
+        while (true) {
+            try (FileWriter fileWriter = new FileWriter("file.txt", true)) {
+
+                String name = prompt("Имя: ");
+                if (name.isEmpty()) throw new RuntimeException("Нужно ввести имя!");
+                TypeVoice[] animalVoices = TypeVoice.values();
+
+                for (TypeVoice say : animalVoices) {
+                    System.out.println(say);
+                }
+
+                String sound = prompt("Какой из вышеперечисленных звуков издает животное? ");
+                if (sound.isEmpty()) throw new RuntimeException("Нужно ввести звук!");
+                controller.saveAnimal(new Animals(name, sound));
+                System.out.println("Поздравляем! Животное успешно созданно!");
+
+                // счетчик
+                int vari = counter.countVar(counter.getInternalVar() + 1);
+                counter.setInternalVar(vari);
+                String res = String.valueOf(vari);
+                System.out.println(res);
+                fileWriter.write(res);
+                fileWriter.append('\n');
+                fileWriter.flush();
+
+            } catch (java.io.IOException e) {
+                System.out.println(e.getMessage());
+            }
+            String theEnd = prompt("Вы закончили создание животных?(yes/enter): ");
+            if (theEnd.equals("yes")) break;
         }
-        String sound = prompt("Какой из вышеперечисленных звуков издает животное? ");
-        controller.saveAnimal(new Animals(name, sound));
-        System.out.println("Поздравляем! Животное успешно созданно!");
     }
+
 
     private void teach() throws Exception {
         String id = prompt("Введите id животного, которое хотите обучить: ");
