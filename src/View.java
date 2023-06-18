@@ -119,7 +119,6 @@ public class View {
                 int vari = counter.countVar(counter.getInternalVar());
                 counter.setInternalVar(vari);
                 String res = String.valueOf(vari);
-                System.out.println(res);
                 fileWriter.write(res);
                 fileWriter.append('\n');
                 fileWriter.flush();
