@@ -105,6 +105,7 @@ public class View {
                 if (name.isEmpty()) throw new RuntimeException("Нужно ввести имя!");
                 TypeVoice[] animalVoices = TypeVoice.values();
 
+                System.out.println("Варианты звуков животных:");
                 for (TypeVoice say : animalVoices) {
                     System.out.println(say);
                 }
@@ -115,7 +116,7 @@ public class View {
                 System.out.println("Поздравляем! Животное успешно созданно!");
 
                 // счетчик
-                int vari = counter.countVar(counter.getInternalVar() + 1);
+                int vari = counter.countVar(counter.getInternalVar());
                 counter.setInternalVar(vari);
                 String res = String.valueOf(vari);
                 System.out.println(res);

@@ -16,7 +16,7 @@ public class Counter {
     }
 
     public int countVar(int vari){
-        return vari++;
+        return vari + 1;
     }
 
 }
