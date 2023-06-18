@@ -45,7 +45,10 @@
 Регистр введения голоса также не имеет значения.
 
 <img width="2048" alt="Снимок экрана 2023-06-17 в 22 21 26" src="https://github.com/VladimirGorF/AnimalsDataCenter/assets/110591063/bb399291-08f2-4976-98aa-5164bc2b8224">
+
 &nbsp;
+&nbsp;
+
 Счетчик заведенных за сеанс животных представлен классом Counter.
 
   <img width="2048" alt="Снимок экрана 2023-06-17 в 22 28 46" src="https://github.com/VladimirGorF/AnimalsDataCenter/assets/110591063/e7636061-51ef-446a-949d-e291d7cd98ea">
