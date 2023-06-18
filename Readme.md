@@ -52,7 +52,10 @@
 Счетчик заведенных за сеанс животных представлен классом Counter.
 
   <img width="2048" alt="Снимок экрана 2023-06-17 в 22 28 46" src="https://github.com/VladimirGorF/AnimalsDataCenter/assets/110591063/e7636061-51ef-446a-949d-e291d7cd98ea">
+  
 &nbsp;
+&nbsp;
+
 Данные о животных сохраняются в файле animals.txt
 
 Данные о командах, которые умеют животные, сохраняются в файле fileCommands.txt
